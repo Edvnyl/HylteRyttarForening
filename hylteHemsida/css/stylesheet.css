@@ -1,6 +1,13 @@
 .navbar{
   background: rgba(25, 29, 101,0.9);
   }
+
+#nyheterhylte{
+padding-left: 50vh;
+padding-top: 10vh;
+padding-bottom: 5vh;
+}
+
 .footer{
   background: rgba(25, 29, 101,0.9);
   position: relative;
@@ -9,14 +16,13 @@ width: 100%;
 /* Set the fixed height of the footer here */
 height: 100px;
 line-height: 60px; /* Vertically center the text there */
-
 }
 .Pfooter{
   color:white;
 }
 .container{
-  width:60vh;
+  width:90vh;
 }
 .carousel-inner, .carousel-item{
-height:30vh;
+height:50vh;
 }
