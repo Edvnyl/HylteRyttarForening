@@ -23,3 +23,22 @@ padding-bottom: 5vh;
 .carousel-inner, .carousel-item{
 height:50vh;
 }
+
+.horsebild{
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.btn-group{
+  width: 70rem;
+  margin: auto;
+}
+
+.btn-nyheter{
+width: 30px;
+}
+
+.horsecollage{
+  width: 100vh;
+}
