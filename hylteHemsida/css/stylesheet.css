@@ -2,6 +2,7 @@
   background: rgba(25, 29, 101,0.9);
   }
 
+
 #nyheterhylte{
 padding-left: 50vh;
 padding-top: 10vh;
@@ -41,4 +42,30 @@ width: 30px;
 
 .horsecollage{
   width: 100vh;
+}
+
+.horseheader {
+  max-height: 600px;
+  width: 100%;
+  background-repeat:no-repeat;
+  object-fit: cover;
+ }
+
+ .horseheadertext p{
+   width: 45%;
+   margin: auto;
+   text-align: center;
+   margin-bottom: 1.5rem;
+ }
+
+.horsecollage1{
+  width: 60rem;
+  margin: auto;
+}
+
+
+   @media screen and (max-width: 850px) {
+ .horseheadertext p{
+   min-width: 80%;
+  }
 }
