@@ -20,7 +20,7 @@
       <!-- Dropdown Navbar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="d-flex flex-grow-1">
-          <a class="navbar-brand mb-0 h1" href="#">
+          <a class="navbar-brand mb-0 h1 headerText" href="index.html">
             <img src="hylteHemsida/images/Hylte Ryttarförening logga.png" height="40px" alt="">
             Hylte Ryttarförening
           </a>
@@ -32,42 +32,38 @@
         <div class="collapse navbar-collapse flex-grow-1 " id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto flex-nowrap mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active headerText" aria-current="page" href="#">Hem</a>
+              <a class="nav-link active headerText" aria-current="page" href="index.html">Hem</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle headerText" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li class="nav-item">
+              <a class="nav-link headerText" href="Nyheter.html">
                 Nyheter
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Aktuella Nyheter</a></li>
-                <li><a class="dropdown-item" href="#">Nyhets arkiv</a></li>
-              </ul>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle headerText" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Förening
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Hyrfus</a></li>
-                <li><a class="dropdown-item" href="#">Styrelse</a></li>
-                <li><a class="dropdown-item" href="#">GDPR</a></li>
-                <li><a class="dropdown-item" href="#">Kalender</a></li>
-                <li><a class="dropdown-item" href="#">Information för medlemmar</a></li>
+                <li><a class="dropdown-item disabled" href="#">Hyrfus</a></li>
+                <li><a class="dropdown-item disabled" href="#">Styrelse</a></li>
+                <li><a class="dropdown-item disabled" href="#">GDPR</a></li>
+                <li><a class="dropdown-item" href="Kalender.html">Kalender</a></li>
+                <li><a class="dropdown-item disabled" href="#">Information för medlemmar</a></li>
 
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle headerText" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle headerText" href="Ridskola.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Ridskola
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Börja rida</a></li>
-                <li><a class="dropdown-item" href="#">Att gå på ridskola</a></li>
-                <li><a class="dropdown-item" href="#">Hästarna</a></li>
-                <li><a class="dropdown-item" href="#">Personal</a></li>
-                <li><a class="dropdown-item" href="#">Kalender</a></li>
-                <li><a class="dropdown-item" href="#">Sköthäst</a></li>
-                <li><a class="dropdown-item" href="#">Träning</a></li>
+                <li><a class="dropdown-item" href="Ridskola.html">Att gå på ridskola</a></li>
+                <li><a class="dropdown-item" href="Börja_rida.html">Börja rida</a></li>
+                <li><a class="dropdown-item" href="Hästar.html">Hästarna</a></li>
+                <li><a class="dropdown-item" href="Personal.html">Personal</a></li>
+                <li><a class="dropdown-item" href="Kalender.html">Kalender</a></li>
+                <li><a class="dropdown-item disabled" href="#">Sköthäst</a></li>
+                <li><a class="dropdown-item disabled" href="#">Träning</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -75,8 +71,8 @@
                 Tävling
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Tävlingskomittéen</a></li>
-                <li><a class="dropdown-item" href="#">Kalender</a></li>
+                <li><a class="dropdown-item disabled" href="#">Tävlingskomittéen</a></li>
+                <li><a class="dropdown-item disabled" href="Kalender.html">Kalender</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -84,8 +80,8 @@
                 Uppstallning
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Information</a></li>
-                <li><a class="dropdown-item" href="#">Kontakt</a></li>
+                <li><a class="dropdown-item disabled" href="#">Information</a></li>
+                <li><a class="dropdown-item disabled" href="#">Kontakt</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -93,9 +89,9 @@
                 Om oss
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Pesonal</a></li>
-                <li><a class="dropdown-item" href="#">Anläggning</a></li>
-                <li><a class="dropdown-item" href="#">Sponsorer</a></li>
+                <li><a class="dropdown-item" href="Personal.html">Pesonal</a></li>
+                <li><a class="dropdown-item disabled" href="#">Anläggning</a></li>
+                <li><a class="dropdown-item disabled" href="#">Sponsorer</a></li>
               </ul>
             </li>
           </ul>
@@ -127,12 +123,12 @@
         </div>
         <div class="row">
           <div class="col bg-light me-2">
-            <a href="#"><p>Kalender</p>
+            <a href="Kalender.html"><p>Kalender</p>
               <img src="hylteHemsida/images/Coming soon.png" alt="">
             </a>
           </div>
           <div class="col bg-light me-2">
-            <a href="#"><p>Börja rida</p>
+            <a href="Börja_rida.html"><p>Börja rida</p>
               <img src="hylteHemsida/images/Coming soon.png" alt="">
             </a>
           </div>
