@@ -1,5 +1,5 @@
 .navbar{
-  background: rgba(25, 29, 101,0.9);
+  background: rgb(25, 29, 101);
   }
 
 
@@ -24,24 +24,24 @@ padding-bottom: 5vh;
 .carousel-inner, .carousel-item{
 height:50vh;
 }
-
-.horsebild{
-  width: 100%;
-  height: 15vw;
-  object-fit: cover;
+@media (max-width:575px) {
+    .display-4 {
+        font-size: 1.5rem;
+    }
+    .day h5 {
+        background-color: #f8f9fa;
+        padding: 3px 5px 5px;
+        margin: -8px -8px 8px -8px;
+    }
+    .date {
+        padding-left: 4px;
+    }
 }
 
-.btn-group{
-  width: 70rem;
-  margin: auto;
-}
-
-.btn-nyheter{
-width: 30px;
-}
-
-.horsecollage{
-  width: 100vh;
+@media (min-width: 576px) {
+    .day {
+        height: 14.2857vw;
+    }
 }
 
 .horseheader {
