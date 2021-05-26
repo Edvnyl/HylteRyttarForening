@@ -44,7 +44,7 @@ height:50vh;
     }
 }
 
-.horseheader {
+.img-header {
   max-height: 600px;
   width: 100%;
   background-repeat:no-repeat;
@@ -56,6 +56,9 @@ height:50vh;
    margin: auto;
    text-align: center;
    margin-bottom: 1.5rem;
+ }
+ .headerText {
+   font-size: 1.5rem;
  }
 
 .horsecollage1{
